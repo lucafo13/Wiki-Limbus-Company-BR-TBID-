@@ -6,3 +6,6 @@ lore traduzida e dados importantes para iniciantes quais teriam dificuldade de a
 a jogar sozinhos.
 
 Pretendo atualizar a página frequentemente e, dependendo do quão boa ficar até comprar um domínio.
+
+
+Link para teste: https://lucafo13.github.io/Wiki-Limbus-Company-BR-TBID-/Limbus_Company_Fan_Page/principal/index.html
