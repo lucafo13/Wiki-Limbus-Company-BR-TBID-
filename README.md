@@ -1,5 +1,5 @@
 # Wiki-Limbus Company Brasil LCB BRASIL
-![Limbus Company Logo](https://limbuscompany.wiki.gg/images/thumb/0/0e/Limbus_Company_Logo.png/800px-Limbus_Company_Logo.png)
+![Sinners Group](https://static.wikia.nocookie.net/limbuscompany/images/7/7a/S0_5.png/revision/latest?cb=20230716085942))
 
 
 Um projeto de uma wiki brasileira sobre Limbus Company e o universo da project moon
