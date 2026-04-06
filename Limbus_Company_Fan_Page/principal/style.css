@@ -24,7 +24,7 @@ body {
   --chibi: url(../assets/chibidon-removebg-preview.png);
   --bwhite: solid #dedede;
   --sobravc: rgba(211, 47, 47, 0.3);
-  --sombrave: rgba(211, 47, 47, 0.45)
+  --sombrave: rgba(211, 47, 47, 0.45);
 }
 
 .superior {
@@ -456,7 +456,7 @@ ul li {
   margin-top: 100px;
 }
 .imagemban{
-  border: var(--bwhite) 5px;
+  border: 5px var(--bwhite);
   border-radius: 10px;
   box-shadow: 0 15px 15px var(--sobravc);
   transition: 0.5s;
@@ -466,7 +466,7 @@ ul li {
 
 }
 .imagemban:hover{
-  border: var(--bordared) 8px;
+  border: 8px var(--bordared);
   border-radius: 10px;
   box-shadow: 0 20px 20px var(--sombrave);
   transform: translateY(-5px) scale(1.02);
