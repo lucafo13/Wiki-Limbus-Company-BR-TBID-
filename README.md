@@ -12,3 +12,7 @@ Atualizações do projeto serão frequentes... espero
 
 ***Está é a Branch master**
 Por probleminhas aqui, criei uma branch nova, se deus quiser agora e só essa
+
+# Link pra teste
+**Use com moderação**
+https://lucafo13.github.io/LCB-Brasil/principal/index.html
