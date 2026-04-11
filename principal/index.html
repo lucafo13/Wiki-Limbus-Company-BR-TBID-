@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
     rel="stylesheet">
-  <script src="script.js"></script>
+  
 </head>
 
 <body>
@@ -66,37 +66,29 @@
           </div>
         </div>
       </section> <br><br><br><br><br><br>
-              <section class="ideologias">
+              <section class="ideologias subindu" id="ideologias">
           <div class="divapai">
-            <div class="umadiva">
-              <img class="imadiva" src="../assets/chibidon-removebg-preview.png" alt="nadaaq">
-            </div>
+
             <div class="textadiva">
               <h1>ola</h1>
             </div> 
-            <div class="textadiva">
-              <p>Caso Queira uma busca mais direta na nossa wiki clique aqui</p>
-              <br>
-              <button class="term" onclick="tvligaraura()">terminal</button>
+            <div class="salva">
+                        <div class="umadiva">
+              <img class="imadiva" src="../assets/chibidon-removebg-preview.png" alt="nadaaq">
+            </div>
+            <div class="textiva">
+              <p>Está é uma Wiki braasileira de Limbus Company Feita a mão em fase de testes <br>
+              pretendo adicionar muitas funções criativas ao longo de meu aprendizado(sou bem inicante com js ;-;) <br>
+            </p>
+
+            </div>
             </div>
           </div>
-<div class="terminal hidden" id="terminal">
-      <div id="output"></div>
-  <div class="terminal-line">
-
-    <span class="prefix">Dante|10:></span>
-    <input class="textanal" id="input" type="text" autofocus>
-  </div>
-</div>
 
 
   </div> <br><br>
         <section class="tipsis">
-        <div class="porti">
-          <div onclick="termina()">
-            <span>Terminal</span>
-          </div>
-        </div>
+
       </section>
         </section>
       <div class="subindu" id="banners">
@@ -117,6 +109,20 @@
             <img class="nsei" src="../assets/LCB_Regular_Check-up_BokGak_Logo_EN.png" alt="">
           </DIV>
         </div>  
+        </div>
+        <div class="terminal hidden" id="terminal" onclick="foca()">
+      <div id="output"></div>
+  <div class="terminal-line">
+
+    <span class="prefix">Dante|10:></span>
+    <input class="textanal" id="input" type="text" autofocus>
+  </div>
+</div>
+<br><br> <br><br>
+        <div class="porti">
+          <div onclick="termina()">
+            <span>Terminal</span>
+          </div>
         </div>
 
       </section> <br> <br><br>
@@ -147,5 +153,5 @@
   </div>
 
   </body>
-
+  <script src="script.js"></script>
 </html>

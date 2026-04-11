@@ -561,6 +561,10 @@ ul li {
 .porti:hover {
   border: 3px var(--bordared);
   transform: translateY(-6px) scale(1.03);
+<<<<<<< HEAD
+=======
+  cursor: var(--cursorsel);
+>>>>>>> 5dc17ab (Hoje o terminal foi e tmb ajeitei aqula div com as noçoes de grid q obtive as 3 da manha)
 }
 .porti:hover span {
   color: var(--vermei);
@@ -601,6 +605,11 @@ ul li {
 .textadiva {
   justify-content: center;
   display: flex;
+<<<<<<< HEAD
+=======
+  justify-content: end;
+  border: red 1px solid;
+>>>>>>> 5dc17ab (Hoje o terminal foi e tmb ajeitei aqula div com as noçoes de grid q obtive as 3 da manha)
   border-bottom: 2px var(--bordared);
   margin: 0 auto;
   height: 60px;
@@ -640,7 +649,11 @@ ul li {
 .textanal {
   flex: 1;
   background: transparent;
+<<<<<<< HEAD
   border: none;
+=======
+  border: 1px var(--bordared);
+>>>>>>> 5dc17ab (Hoje o terminal foi e tmb ajeitei aqula div com as noçoes de grid q obtive as 3 da manha)
   outline: none;
   color: #dedede;
   font-family: "Share Tech Mono", monospace;

@@ -22,7 +22,9 @@ body {
   position: relative;
   z-index: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 @keyframes scan {
   0% {
     background-position: 0 0;
@@ -111,7 +113,6 @@ nav {
   font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
   font-weight: weight;
-  font-style: normal;
 }
 
 h1,
@@ -558,15 +559,16 @@ ul li {
   display: flex;
   margin: 0 auto;
   transition: 0.5s;
+  font-family: monospace;
 }
 .porti span {
-  font-family: "JetBrains Mono" monospace;
   font-size: 30px;
   transition: 0.5s ease;
 }
 .porti:hover {
   border: 3px var(--bordared);
   transform: translateY(-6px) scale(1.03);
+  cursor: var(--cursorsel);
 }
 .porti:hover span {
   color: var(--vermei);
@@ -590,7 +592,7 @@ ul li {
   border-radius: 10px;
 
   width: 60%;
-  display: flex;
+  display: grid;
 
   transition: 0.6s;
   margin: 0 auto;
@@ -603,14 +605,43 @@ ul li {
   margin-right: auto;
   width: 200px;
   height: 200px;
+  left: 0;
+
+  float: left;
+}
+.salva {
+  display: flex;
 }
 .textadiva {
-  justify-content: center;
   display: flex;
-  border-bottom: 2px var(--bordared);
+  justify-content: center;
+  border-bottom: 2px var(--bwhite);
   margin: 0 auto;
   height: 60px;
-  width: 70%;
+  width: 100%;
+  align-items: start;
+  transition: 0.5s ease;
+}
+.divapai:hover .textadiva {
+  border-bottom: 1.5px var(--bordared);
+}
+.textiva {
+  display: flex;
+  margin-bottom: px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+#output {
+  font-family: monospace;
+  font-size: 17px;
+}
+#input {
+  font-family: monospace;
+  font-size: 17px;
 }
 .terminal {
   background-color: #0d0d0d;
