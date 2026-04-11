@@ -13,20 +13,11 @@ Pretendo atualizar a página frequentemente e, dependendo do quão boa ficar at�
 **ESTA NÃO É UMA VERSÃO FINAL**
 Atualizações do projeto serão frequentes... espero
 
-***Está é a Branch master**
-<<<<<<< HEAD
+***Está é a Branch master*
 Por probleminhas aqui, criei uma branch nova, se deus quiser agora e só esse
 # Link pra test
 **Use com moderação**
 https://lucafo13.github.io/LCB-Brasil/principal/index.html
 ![Mephistopheles](https://static.wikia.nocookie.net/limbuscompany/images/3/35/S0_1_5.png/revision/latest?cb=20230716085942)
 # Pode ter erros
-**Algum tipo de falha está acontecendo agora, não baixe qualquer arquivo que o site peça!**
-=======
-Por probleminhas aqui, criei uma branch nova, se deus quiser agora e só essa
-
-# Link pra teste
-**Use com moderação**
-https://lucafo13.github.io/LCB-Brasil/principal/index.html
-![Mephistopheles](https://static.wikia.nocookie.net/limbuscompany/images/3/35/S0_1_5.png/revision/latest?cb=20230716085942)
->>>>>>> 5dc17ab (Hoje o terminal foi e tmb ajeitei aqula div com as noçoes de grid q obtive as 3 da manha)
+**guys GitHub me odeia e o pull deu problema site deve tar dando pau mas amanhã já faço push novo rlx única pessoa q abriu o link**
