@@ -37,3 +37,20 @@ window.addEventListener("scroll", function(){
   item.classList.add("show")
   }
 })
+fetch("json.json")
+  .then(res => res.json())
+  .then(sinners => {
+    const container = document.getElementById("container")
+
+    sinners.array.forEach(s => {
+      const card = document.createElement("div");
+      card.classList.add("sinnercard")
+
+      card.innerHTML = `<h2>${s.nome}</h2>
+      <img src="${s.img}" alt="${s.nome}">
+      <p>${s.numero} Sinner</p>
+      <br>
+      <button>Ver IDS</button>`;
+    container.appendChild(card);
+    });
+  })

@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Faust", "numero": "primeira", "img": "../../assets/Faust_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Yi Sang", "numero": "Segundo", "img": "../../assets/Yi_Sang_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Don Quixote", "numero": "Terceiro", "img": "../../assets/Don_Quixote_ID_Photo_3.png" 
+    },
+        {
+        "nome": "Ryoshu", "numero": "Quarta", "img": "../../assets/Ryoshu_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Meursault", "numero": "Quinto", "img": "../../assets/Meursault_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Hong Lu", "numero": "Sexto", "img": "../../assets/Hong_Lu_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Heathcliff", "numero": "sétimo", "img": "../../assets/Heathcliff_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Ishmael", "numero": "Oitava", "img": "../../assets/Ishmael_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Rodion", "numero": "Nona", "img": "../../assets/Rodion_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Sinclair", "numero": "Décimo primeiro", "img": "../../assets/Sinclair_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Outis", "numero": "Décima Segunda", "img": "../../assets/Outis_ID_Photo_1.png" 
+    },
+        {
+        "nome": "Gregor", "numero": "Décimo Terceiro", "img": "../../assets/Gregor_ID_Photo_1.png" 
+    }
+]
