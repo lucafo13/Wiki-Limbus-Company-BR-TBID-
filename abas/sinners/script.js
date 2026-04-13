@@ -42,7 +42,7 @@ fetch("json.json")
   .then(sinners => {
     const container = document.getElementById("container")
 
-    sinners.array.forEach(s => {
+    sinners.forEach(s => {
       const card = document.createElement("div");
       card.classList.add("sinnercard")
 
