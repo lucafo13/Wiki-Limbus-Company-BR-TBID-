@@ -5,17 +5,12 @@ body {
   opacity: 1;
   transition: opacity 0.5s ease;
   background-image:
-    linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
-    linear-gradient(
-      90deg,
-      rgba(255, 0, 0, 0.03),
-      rgba(0, 255, 0, 0.01),
-      rgba(0, 0, 255, 0.03)
-    );
-
-  background-size:
-    100% 4px,
-    100% 100%;
+    url(../../../assets/bgtr.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
   background-color: #0d0d0d;
 
   color: white;
@@ -26,6 +21,20 @@ body {
 body.fade-out {
   opacity: 0;
 }
+.man {
+  width: 90%;
+  min-height: 100vh;
+  display: flow-root;
+  border: none;
+  background-color: rgba(13, 13, 13, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: auto;
+
+  margin: 20px auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -354,4 +363,7 @@ p {
   height: 100%;
   justify-content: center;
   margin-bottom: -20px;
+}
+.ttr a{
+  color: var(--vescuro)
 }

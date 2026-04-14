@@ -123,6 +123,10 @@ const vai = [
   "Vai tirar nada kkkkkk",
   "Um usuário ja usou esse comando",
 ];
+const button = [
+  `<button onclick="window.location.href="https://www.google.com"" >Teste sua dignidade</button>`,
+  `<button onclick="window.location.href="#"">Teste sua</button>`,
+]
 const prescript = [
   "Bata na 3º pessoa que encontrar",
   "escreva um livro de 543 páginas as 3horas",
@@ -130,6 +134,8 @@ const prescript = [
   "pinte seu calcanhar de azul",
   "leve pães de queijo ao dono do site",
   "um usuario ja recebeu um prescript antes",
+  "introduza uma faca a 363 graus na primeira leoa africana encontrada ",
+  "Tome três xicaras de chá de calumila misturado com pó de potassio as 6:33:12:03 da tarde",
 ];
 const user = document.getElementById("dante");
 // comandos
@@ -165,7 +171,16 @@ const commands = {
       window.location.href = "../abas/sinners/sinners.html";
     }, 500);
   },
-
+  sorteio: () => {
+    audio.pause();
+    input.classList.remove("azule");
+    terminal.classList.add("terminal");
+    terminal.classList.remove("termiblue")
+    addLine("veremos se eh digno...")
+    setTimeout(() => {
+      innerHTML += button[Math.floor(Math.random()*button.length)];
+    }, 5000);
+  },
   clear: () => {
     audio.pause();
     terminal.classList.add("terminal");

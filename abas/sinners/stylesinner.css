@@ -7,6 +7,7 @@ body {
   color: white;
   cursor: url(../../assets/normal.png), auto;
   background-attachment: fixed;
+  background-size: cover;
   min-height: 100vh;
   padding: 0;
   margin: 0;
@@ -22,6 +23,12 @@ body {
   --sobravc: rgba(211, 47, 47, 0.3);
   --sombrave: rgba(211, 47, 47, 0.45);
   --fonti: "JetBrains Mono", monospace;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-b: 1.7rem;
+  --bgimage: url(../../assets/testando12);
+  
+
 }
 .davez {
   border: none;
@@ -401,11 +408,18 @@ table tbody tr:hover td {
   font-family: monospace;
   font-size: 18.5px;
   padding: 0px 20px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+
 }
 .tittle {
   transition: 0.5s;
+  
 }
 
+h1{
+  letter-spacing: 2px;
+}
 .man {
   width: 90%;
   min-height: 100vh;
