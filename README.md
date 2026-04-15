@@ -23,12 +23,22 @@ https://lucafo13.github.io/LCB-Brasil/principal/index.html
 **Nenhum erro a ser avisado por enquanto**
 # Terminal Comands:
 >Index: altoexplicativo para fans !possui audio!
+
 >help: ajuda, claro
+
 >gacha: medidor de sorte
+
 >pais: hexa
+
 >dquixote: teste de imagens em terminal
+
 >traducao: vai para aba de traduções
+
 >sinners: aba sinners
+
 >clear: limpa terminal
+
 >naogostei: auto-destruição
+
 >para mais comandos digita help lá vlw
+
